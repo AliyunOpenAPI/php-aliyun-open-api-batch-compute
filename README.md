@@ -1,4 +1,4 @@
-The BatchCompute SDK for Aliyun OpenAPI
+The Batch Compute SDK for Aliyun OpenAPI
 =======================================
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
@@ -9,14 +9,14 @@ The BatchCompute SDK for Aliyun OpenAPI
 [![Total Downloads][ico-downloads]][link-downloads]
 
 
-The BatchCompute SDK for Aliyun OpenAPI
+The Batch Compute SDK for Aliyun OpenAPI
 
 ## Install
 
 Via Composer
 
 ``` bash
-$ composer require lokielse/aliyun-open-api-core
+$ composer require lokielse/aliyun-open-api-batch-compute
 ```
 
 
@@ -24,22 +24,22 @@ $ composer require lokielse/aliyun-open-api-core
 
 ```php
 /**
- * 访问信息
- */
+* 访问信息
+*/
 $config = [
-	'AccessKeyId'=>'<your access_key_id>',
-	'AccessKeySecret'=>'<your access_key_secret>',
+'AccessKeyId'=>'<your access_key_id>',
+'AccessKeySecret'=>'<your access_key_secret>',
 ];
 
 /**
- * 授权资料
- */
+* 授权资料
+*/
 $profile = DefaultProfile::getProfile('cn-hangzhou', $config['AccessKeyId'], $config['AccessKeySecret']);
 
 
 /**
- * 请求对象
- */
+* 请求对象
+*/
 $request = new XXXRequest();
 $request->setAAA();
 $request->setBBB();
@@ -79,17 +79,17 @@ If you discover any security related issues, please email lokielse@gmail.com ins
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/lokielse/aliyun-open-api-core.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/lokielse/aliyun-open-api-batch-compute.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/lokielse/aliyun-open-api-core/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/lokielse/aliyun-open-api-core.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/lokielse/aliyun-open-api-core.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/lokielse/aliyun-open-api-core.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/lokielse/aliyun-open-api-batch-compute/master.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/lokielse/aliyun-open-api-batch-compute.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/lokielse/aliyun-open-api-batch-compute.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/lokielse/aliyun-open-api-batch-compute.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/lokielse/aliyun-open-api-core
-[link-travis]: https://travis-ci.org/lokielse/aliyun-open-api-core
-[link-scrutinizer]: https://scrutinizer-ci.com/g/lokielse/aliyun-open-api-core/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/lokielse/aliyun-open-api-core
-[link-downloads]: https://packagist.org/packages/lokielse/aliyun-open-api-core
+[link-packagist]: https://packagist.org/packages/lokielse/aliyun-open-api-batch-compute
+[link-travis]: https://travis-ci.org/lokielse/aliyun-open-api-batch-compute
+[link-scrutinizer]: https://scrutinizer-ci.com/g/lokielse/aliyun-open-api-batch-compute/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/lokielse/aliyun-open-api-batch-compute
+[link-downloads]: https://packagist.org/packages/lokielse/aliyun-open-api-batch-compute
 [link-author]: https://github.com/lokielse
 [link-contributors]: ../../contributors
