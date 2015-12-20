@@ -1,0 +1,44 @@
+{
+  "name": "lokielse/aliyun-open-api-batch-compute",
+  "description": "Aliyun OpenAPI MTS",
+  "keywords": [
+    "aliyun",
+    "batch-compute",
+    "php",
+    "sdk"
+  ],
+  "homepage": "https://github.com/lokielse/aliyun-open-api-batch-compute",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "lokielse",
+      "email": "lokielse@gmail.com",
+      "homepage": "http://lokielse.org",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.3.0",
+    "lokielse/aliyun-open-api-core": "^1.0.0"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Aliyun\\SLB\\": "src",
+      "Aliyun\\SLB\\Test": "tests"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "master"
+    }
+  }
+}
