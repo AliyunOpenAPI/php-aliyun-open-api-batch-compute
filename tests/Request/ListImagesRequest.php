@@ -1,4 +1,4 @@
-<?php namespace Aliyun\BatchCompute\Request\Test;
+<?php namespace Aliyun\BatchCompute\Test\Request;
 
 /*
  * Licensed to the Apache Software Foundation (ASF) under one
