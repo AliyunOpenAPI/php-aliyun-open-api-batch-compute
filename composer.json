@@ -25,12 +25,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Aliyun\\SLB\\": "src",
-      "Aliyun\\SLB\\Test\\": "tests"
+      "Aliyun\\SLB\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
+      "Aliyun\\SLB\\Test\\": "tests"
     }
   },
   "scripts": {
