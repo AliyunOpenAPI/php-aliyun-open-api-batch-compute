@@ -1,6 +1,6 @@
 {
   "name": "lokielse/aliyun-open-api-batch-compute",
-  "description": "The BatchCompute SDK for Aliyun OpenAPI",
+  "description": "The Batch Compute SDK for Aliyun OpenAPI",
   "keywords": [
     "aliyun",
     "batch-compute",
