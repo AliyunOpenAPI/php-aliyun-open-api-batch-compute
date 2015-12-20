@@ -24,22 +24,22 @@ $ composer require lokielse/aliyun-open-api-batch-compute
 
 ```php
 /**
-* 访问信息
-*/
+ * 访问信息
+ */
 $config = [
-'AccessKeyId'=>'<your access_key_id>',
-'AccessKeySecret'=>'<your access_key_secret>',
+	'AccessKeyId'=>'<your access_key_id>',
+	'AccessKeySecret'=>'<your access_key_secret>',
 ];
 
 /**
-* 授权资料
-*/
+ * 授权资料
+ */
 $profile = DefaultProfile::getProfile('cn-hangzhou', $config['AccessKeyId'], $config['AccessKeySecret']);
 
 
 /**
-* 请求对象
-*/
+ * 请求对象
+ */
 $request = new XXXRequest();
 $request->setAAA();
 $request->setBBB();
